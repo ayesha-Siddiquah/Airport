@@ -44,7 +44,7 @@ def main():
                 print("Quitting airplane")  # quitting
                 quit = True
             else:
-                print("Invalid option try again")
+                print("Invalid option try again after sometime!")
         except ValueError as e:
             print(f"Error: {str(e)}")
 
